@@ -1,0 +1,7 @@
+node_modules
+build
+allure-results
+allure-report
+screenshots
+download
+.DS_Store

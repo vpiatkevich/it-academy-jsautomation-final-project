@@ -1,0 +1,169 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "action": {
+              "type": "string"
+            },
+            "id": {
+              "type": "integer"
+            },
+            "elementId": {
+              "type": "integer"
+            },
+            "elementSiteId": {
+              "type": "integer"
+            },
+            "elementClass": {
+              "type": "string"
+            },
+            "listId": {
+              "type": "integer"
+            },
+            "tempId": {
+              "type": "null"
+            },
+            "draftId": {
+              "type": "null"
+            },
+            "revisionId": {
+              "type": "null"
+            },
+            "isProvisionalDraft": {
+              "type": "boolean"
+            },
+            "uid": {
+              "type": "string"
+            },
+            "siteSettingsId": {
+              "type": "integer"
+            },
+            "fieldLayoutId": {
+              "type": "integer"
+            },
+            "contentId": {
+              "type": "integer"
+            },
+            "enabled": {
+              "type": "boolean"
+            },
+            "archived": {
+              "type": "boolean"
+            },
+            "siteId": {
+              "type": "integer"
+            },
+            "title": {
+              "type": "string"
+            },
+            "slug": {
+              "type": "null"
+            },
+            "uri": {
+              "type": "null"
+            },
+            "dateCreated": {
+              "type": "string"
+            },
+            "dateUpdated": {
+              "type": "string"
+            },
+            "dateLastMerged": {
+              "type": "null"
+            },
+            "dateDeleted": {
+              "type": "null"
+            },
+            "trashed": {
+              "type": "boolean"
+            },
+            "isNewForSite": {
+              "type": "boolean"
+            },
+            "canonicalId": {
+              "type": "integer"
+            },
+            "isDraft": {
+              "type": "boolean"
+            },
+            "isRevision": {
+              "type": "boolean"
+            },
+            "isUnpublishedDraft": {
+              "type": "boolean"
+            },
+            "ref": {
+              "type": "null"
+            },
+            "status": {
+              "type": "string"
+            },
+            "structureId": {
+              "type": "null"
+            },
+            "url": {
+              "type": "null"
+            },
+            "itemSection": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "action",
+            "id",
+            "elementId",
+            "elementSiteId",
+            "elementClass",
+            "listId",
+            "tempId",
+            "draftId",
+            "revisionId",
+            "isProvisionalDraft",
+            "uid",
+            "siteSettingsId",
+            "fieldLayoutId",
+            "contentId",
+            "enabled",
+            "archived",
+            "siteId",
+            "title",
+            "slug",
+            "uri",
+            "dateCreated",
+            "dateUpdated",
+            "dateLastMerged",
+            "dateDeleted",
+            "trashed",
+            "isNewForSite",
+            "canonicalId",
+            "isDraft",
+            "isRevision",
+            "isUnpublishedDraft",
+            "ref",
+            "status",
+            "structureId",
+            "url",
+            "itemSection"
+          ]
+        }
+      ]
+    },
+    "action": {
+      "type": "string"
+    },
+    "success": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "items",
+    "action",
+    "success"
+  ]
+}
